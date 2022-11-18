@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Generics  */
@@ -22,13 +23,20 @@ main {
 /* Utils  */
 
 .border {
-  border:  2px dashed green;
+  border:  1px solid white;
+}
+.circle {
+    border-radius: 50%;
 }
 
 /* Widths */
 
 .w-50 {
     width: 50%;
+}
+
+.w-60 {
+    width: 60%;
 }
 
 /* Colors  */
@@ -96,18 +104,18 @@ main header {
 
 /* Main -- Disks  */
 
-.r-p-title {
+.main-title {
     min-height: 50px;
     margin: 15px 0;
 }
 
-.recently-played {
+.recently-played, .suggested, .most-famous {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
 
-.recently-played .card {
+section .card {
     min-height: calc(50vw - 55px);
     min-width: calc(50% - 10px);
 }
@@ -119,6 +127,12 @@ main header {
 footer {
     background-color: #282828;
     height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+
 }
 
 
@@ -139,7 +153,7 @@ footer {
         padding-left: 170px;
     }
 
-    .recently-played .card {
+    section .card {
         min-height: calc(50vw - 100px);
         min-width: calc(50% - 10px);
     }
@@ -155,7 +169,7 @@ footer {
         width: 100%;
     }
 
-    .recently-played .card {
+    section .card {
         min-height: calc(100vw / 6 - 42px);
         min-width: calc(100% / 6 - 13px);
     }
