@@ -58,3 +58,33 @@ footer {
     left: 0;
     z-index: 1;
 }
+
+
+
+/* ********RESPONSIVE******* */
+
+/* Responsive s  */
+@media screen and (min-width: 639px) {
+
+    .side-nav {
+        width: 160px;
+    }
+
+    .txt-a-nav {
+        display: inline-block;
+    }
+    
+
+}
+
+/* Responsive md */
+
+@media screen and (min-width: 878px) {
+
+}
+
+/* Responsive lg */
+
+@media screen and (min-width: 1440px) {
+
+}
