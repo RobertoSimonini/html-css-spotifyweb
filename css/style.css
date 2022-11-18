@@ -1,0 +1,26 @@
+/* Css reset  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics  */
+
+/* Utils  */
+
+/* Sidebar  */
+
+/* main */
+
+/* Footer  */
+
+footer {
+    background-color: #282828;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
