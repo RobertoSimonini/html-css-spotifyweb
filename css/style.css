@@ -41,24 +41,28 @@
  
 /* main */
 
-.main {
-    margin-left: 60px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
+main header {
+    background-color: #80808036;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
   
+main {
+    padding-top: 100px;
+    padding-left: 80px;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
 
 /* Footer  */
 
 footer {
     background-color: #282828;
     height: 100px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: 1;
 }
-
 
 
 /* ********RESPONSIVE******* */
