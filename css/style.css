@@ -8,8 +8,29 @@
 
 /* Generics  */
 
+main {
+    padding-top: 100px;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    padding-left: 80px;
+    padding-right: 10px;
+}
+
 
 /* Utils  */
+
+.border {
+  border:  2px dashed green;
+}
+
+/* Widths */
+
+.w-50 {
+    width: 50%;
+}
+
+/* Colors  */
+
 
 /* Sidebar  */
 
@@ -53,15 +74,43 @@ main header {
     left: 0;
     text-align: right;
 }
-main {
-    padding-top: 100px;
-    height: calc(100vh - 100px);
-    overflow-y: auto;
-    padding-left: 80px;
-    padding-right: 10px;
+
+/* Navbar  */
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 52px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
-  
+.navbar a {
+    text-decoration: none;
+    color: #818181;
+    font-size: 22px;
+}
+
+/* Main -- Disks  */
+
+.r-p-title {
+    min-height: 50px;
+    margin: 15px 0;
+}
+
+.recently-played {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.r-p-disk {
+    min-height: calc(50vw - 60px);
+    min-width: calc(50% - 10px);
+}
+
+
 
 /* Footer  */
 
