@@ -8,6 +8,7 @@
 
 /* Generics  */
 
+
 /* Utils  */
 
 /* Sidebar  */
@@ -42,20 +43,25 @@
 /* main */
 
 main header {
+    padding: 10px;
+    padding-left: 80px;
     background-color: #80808036;
     height: 100px;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
+    text-align: right;
 }
-  
 main {
     padding-top: 100px;
-    padding-left: 80px;
     height: calc(100vh - 100px);
     overflow-y: auto;
+    padding-left: 80px;
+    padding-right: 10px;
 }
+
+  
 
 /* Footer  */
 
@@ -78,6 +84,9 @@ footer {
         display: inline-block;
     }
     
+    main {
+        padding-left: 170px;
+    }
 
 }
 
