@@ -14,6 +14,8 @@ main {
     overflow-y: auto;
     padding-left: 80px;
     padding-right: 10px;
+    background-color: #141922;
+    color: #fff;
 }
 
 
@@ -105,8 +107,8 @@ main header {
     gap: 15px;
 }
 
-.r-p-disk {
-    min-height: calc(50vw - 60px);
+.recently-played .card {
+    min-height: calc(50vw - 55px);
     min-width: calc(50% - 10px);
 }
 
@@ -137,11 +139,26 @@ footer {
         padding-left: 170px;
     }
 
+    .recently-played .card {
+        min-height: calc(50vw - 100px);
+        min-width: calc(50% - 10px);
+    }
+
 }
 
 /* Responsive md */
 
 @media screen and (min-width: 878px) {
+
+    .recently-played {
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .recently-played .card {
+        min-height: calc(100vw / 6 - 42px);
+        min-width: calc(100% / 6 - 13px);
+    }
 
 }
 
