@@ -39,8 +39,18 @@ main {
     width: 60%;
 }
 
-/* Colors  */
+/* Buttons  */
 
+.btn-upgrade {
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+}
 
 /* Sidebar  */
 
@@ -76,13 +86,15 @@ main {
 main header {
     padding: 10px;
     padding-left: 80px;
-    background-color: #80808036;
+    background-color: #080b124d;
     height: 100px;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 /* Navbar  */
@@ -91,7 +103,7 @@ main header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 52px;
+    gap: 30px;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -99,7 +111,8 @@ main header {
 .navbar a {
     text-decoration: none;
     color: #818181;
-    font-size: 22px;
+    font-size: 12PX;
+    font-weight: bold;
 }
 
 /* Main -- Disks  */
