@@ -14,7 +14,7 @@
 
 .side-nav {
     height: 100%;
-    width: 160px;
+    width: 60px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -30,6 +30,10 @@
     display: block;
 }
 
+.txt-a-nav {
+    display: none;
+}
+
 .side-nav a:hover {
     color: #f1f1f1;
 }
@@ -38,7 +42,7 @@
 /* main */
 
 .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 60px; /* Same as the width of the sidebar */
     padding: 0px 10px;
 }
   
