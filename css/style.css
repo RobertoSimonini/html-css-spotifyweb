@@ -70,6 +70,7 @@ img {
     top: 0;
     left: 0;
     background-color: #000000; 
+    color: #818181;
 }
 
 
@@ -84,11 +85,10 @@ img {
 .side-nav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     color: #818181;
     display: block;
 }
-
 
 .side-nav a:hover {
     color: #f1f1f1;
@@ -97,6 +97,37 @@ img {
 .txt-command {
     display: none;
 }
+
+/* Playlist-->SIdenav  */
+
+.playlist {
+    display: none;
+}
+
+.playlist-title {
+    color: #fff;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.add-square {
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    border: 1px solid #818181;
+    margin-right: 5px;
+    line-height: 40px;
+    text-align: center;
+    color: #141922;
+    background-color: #818181;
+    cursor: pointer;
+}
+
+.add-square:hover {
+    filter: brightness(150%);
+
+}
+
  
 /* main */
 
@@ -217,7 +248,6 @@ footer {
         height: 25px;
     }
 
-   
     main {
         padding-left: 170px;
     }
@@ -225,6 +255,10 @@ footer {
     section .card {
         min-height: calc(50vw - 100px);
         min-width: calc(50% - 10px);
+    }
+
+    .playlist {
+        display: block;
     }
 
 }
@@ -248,5 +282,11 @@ footer {
 /* Responsive lg */
 
 @media screen and (min-width: 1440px) {
+
+.suggested .card {
+    height: 232px;
+    width: 232px;
+    margin-bottom: 25px;
+}
 
 }
