@@ -19,6 +19,10 @@ main {
     color: #fff;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
 
 /* Utils  */
 
@@ -37,6 +41,10 @@ main {
 
 .w-60 {
     width: 60%;
+}
+
+.w-75 {
+    width: 75%;
 }
 
 /* Buttons  */
@@ -64,6 +72,15 @@ main {
     background-color: #000000; 
 }
 
+
+#big-logo {
+    display: none;
+}
+
+.commands {
+    text-align: center;
+}
+
 .side-nav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -72,14 +89,14 @@ main {
     display: block;
 }
 
-.txt-a-nav {
-    display: none;
-}
 
 .side-nav a:hover {
     color: #f1f1f1;
 }
 
+.txt-command {
+    display: none;
+}
  
 /* main */
 
@@ -108,12 +125,17 @@ main header {
     padding-bottom: 30px;
 }
 
-.navbar a {
+.nav-links a {
     text-decoration: none;
     color: #818181;
     font-size: 12PX;
     font-weight: bold;
 }
+
+.nav-links a:hover {
+    color: #f1f1f1;
+}
+
 
 /* Main -- Disks  */
 
@@ -129,11 +151,19 @@ main header {
 }
 
 section .card {
-    min-height: calc(50vw - 55px);
-    min-width: calc(50% - 10px);
+    /* height: calc(50vw - 55px); */
+    width: calc(50% - 10px);
 }
 
+.description {
+    padding: 15px 0;
+    text-align: center;
+}
 
+.description sub {
+    color: #818181;
+    font-size: 15px;
+}
 
 /* Footer  */
 
@@ -158,10 +188,36 @@ footer {
         width: 160px;
     }
 
-    .txt-a-nav {
-        display: inline-block;
+    .side-nav a {
+        display: flex;
+        align-items: center;
     }
-    
+
+
+    #small-logo {
+        display: none;
+    }
+
+    .txt-command {
+        display: block;
+        font-size: 15px;
+    }
+
+    #big-logo {
+        height: 100px;
+        display: block;
+        padding-left: 16px;
+    }
+
+    #small-logo {
+        display: none;
+    }
+
+    a img {
+        height: 25px;
+    }
+
+   
     main {
         padding-left: 170px;
     }
