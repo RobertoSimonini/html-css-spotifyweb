@@ -295,7 +295,12 @@ footer {
 
 @media screen and (min-width: 1440px) {
 
-.suggested .card {
+section .card {
+    min-height: calc(100vw / 6 - 42px);
+    min-width: calc(100% / 6 - 13px);
+}
+
+.suggested .card, .most-famous .card {
     height: 232px;
     width: 232px;
     margin-bottom: 25px;
