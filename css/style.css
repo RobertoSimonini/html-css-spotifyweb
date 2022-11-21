@@ -164,6 +164,16 @@ sub {
 
 }
 
+.side-nav-footer {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+
+.side-nav-footer .txt-command {
+    width: 100%;
+    border-bottom: 1px solid #818181;
+}
  
 /* main */
 
