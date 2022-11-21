@@ -25,6 +25,10 @@ img {
     max-width: 100%;
 }
 
+sub {
+    color: #818181;
+}
+
 /* Utils  */
 
 .border {
@@ -32,6 +36,14 @@ img {
 }
 .circle {
     border-radius: 50%;
+}
+
+.white {
+    color: #f1f1f1;
+}
+
+.pdng-25 {
+    padding: 25px 0;
 }
 
 /* Widths */
@@ -85,12 +97,14 @@ img {
     left: 0;
     background-color: #000000; 
     color: #818181;
+    
 }
 
 
 #big-logo {
     display: none;
 }
+
 
 .commands {
     text-align: center;
@@ -111,17 +125,25 @@ img {
 .txt-command {
     display: none;
 }
-
 /* Playlist-->SIdenav  */
 
 .playlist {
     display: none;
+    line-height: 25px;
 }
 
 .playlist-title {
     color: #fff;
     font-size: 15px;
     padding: 16px;
+}
+
+.add-playlist {
+    overflow-y: auto;
+}
+
+.add-playlist ul li a {
+    font-size: 13.5px;
 }
 
 .add-square {
@@ -213,7 +235,6 @@ section .card:hover {
 }
 
 .description sub {
-    color: #818181;
     font-size: 15px;
 }
 
@@ -281,9 +302,6 @@ footer {
     line-height: 12px;
 }
 
-.description-footer sub {
-    color: #818181;
-}
 
 .feedback {
     display: flex;
