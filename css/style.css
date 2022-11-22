@@ -229,13 +229,31 @@ main header {
 }
 
 section .card {
-    /* height: calc(50vw - 55px); */
     width: calc(50% - 10px);
-    transition: transform 0.5s;
+    transition: transform 0.5s; 
 }
+
+.card-wrapper {
+    position: relative;
+}
+
+.play {
+position: absolute;  
+font-size: 50px;
+bottom: 50%;
+left: 50%;
+transform: translate(-50%, 50%);
+display: none;
+}
+
 
 section .card:hover {
     transform: scale(1.05);
+    filter: grayscale(80%);
+}
+
+section .card:hover .play {
+    display: block;
 }
 
 
